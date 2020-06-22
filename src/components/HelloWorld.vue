@@ -1,3 +1,4 @@
+
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -37,6 +38,7 @@
 </template>
 
 <script>
+// import Navbar from './Navbar.vue'
 export default {
   name: 'HelloWorld',
   props: {
