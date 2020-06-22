@@ -1,3 +1,4 @@
+<template>
 <div>
   <b-navbar toggleable="lg" type="dark" variant="dark" sticky="true">
     <!-- Brand img -->
@@ -18,3 +19,4 @@
     </b-collapse>
   </b-navbar>
 </div>
+</template>
