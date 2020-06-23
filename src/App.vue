@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Navbar/>
+    <Jumbotron />
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Hell"/>
 
@@ -10,12 +11,14 @@
 <script>
 import Navbar from './components/Navbar.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import Jumbotron from './components/Jumbotron.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Navbar
+    Navbar,
+    Jumbotron
   }
 }
 </script>
@@ -27,6 +30,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

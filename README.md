@@ -8,6 +8,10 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+
+or
+
+Sudo npm run serve if Hot-reload doesn't run
 ```
 
 ### Compiles and minifies for production
