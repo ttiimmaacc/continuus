@@ -33,4 +33,5 @@ export default {
   overflow: hidden;
   background-color: black;
 }
+
 </style>

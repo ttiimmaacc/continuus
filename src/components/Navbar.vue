@@ -1,6 +1,6 @@
 <template>
 
-  <b-navbar class="" toggleable="lg" type="dark" sticky=true>
+  <b-navbar class="" toggleable="lg" type="dark">
     <!-- Brand img -->
   <b-navbar variant="faded" type="dark">
     <b-navbar-brand href="#">
