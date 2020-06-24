@@ -2,21 +2,21 @@
   <div id="app">
     <Navbar/>
     <Jumbotron />
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Hell"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Hell"/> -->
 
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import Jumbotron from './components/Jumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    // HelloWorld,
     Navbar,
     Jumbotron
   }
