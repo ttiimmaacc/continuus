@@ -2,6 +2,7 @@
   <div id="app">
     <Navbar/>
     <Jumbotron />
+    <Layout />
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Hell"/> -->
 
@@ -12,13 +13,15 @@
 import Navbar from './components/Navbar.vue'
 // import HelloWorld from './components/HelloWorld.vue'
 import Jumbotron from './components/Jumbotron.vue'
+import Layout from './components/Layout.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     Navbar,
-    Jumbotron
+    Jumbotron,
+    Layout
   }
 }
 </script>

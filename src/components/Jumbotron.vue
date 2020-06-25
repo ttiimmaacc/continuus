@@ -7,7 +7,7 @@
           <b-col cols="12" md="6">
           <img class="img-fluid" alt="logo" src="~@/assets/logo-hero.png" >
             <h4 class="font-italic mt-1 font-weight-light">MODULAR PUMP TRACKS</h4>
-            <p  class="">Continuus specialise. We design and build modular pump tracks for indoor and outdoor enviroments. Helping children of all ages to stay active while enjoying the ride.</p>
+            <p  class="mt-4">Continuus specialise. We design and build modular pump tracks for indoor and outdoor enviroments. Helping children of all ages to stay active while enjoying the ride.</p>
             <p>Designed and manufactured in Canada.</p>
             <b-button variant="outline-white" href="#"><small>CONTACT US</small></b-button>
             <b-link class="ml-3 text-white" href="#"><small>LEARN MORE</small></b-link>
