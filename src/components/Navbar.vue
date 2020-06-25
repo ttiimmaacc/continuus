@@ -1,6 +1,6 @@
 <template>
 
-  <b-navbar class="" toggleable="lg" type="dark">
+  <b-navbar class="text-white" toggleable="lg" type="dark" >
     <!-- Brand img -->
   <b-navbar variant="faded" type="dark">
     <b-navbar-brand href="#">
@@ -12,9 +12,9 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <!-- Right aligned nav items -->
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#">TRACK SYSTEMS</b-nav-item>
-        <b-nav-item href="#">CONTACT</b-nav-item>
+      <b-navbar-nav class="ml-auto text-white">
+        <b-nav-item href="#"><small>TRACK SYSTEMS</small></b-nav-item>
+        <b-nav-item href="#"><small>CONTACT</small></b-nav-item>
         <b-nav-item href="#"><img height="20px" alt="logo" src="~@/assets/instagram.png" class="ig"></b-nav-item>
       </b-navbar-nav>
     </b-collapse>

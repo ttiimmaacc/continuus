@@ -5,19 +5,19 @@
       <b-container>
         <b-row class="mt-50 mb-5">
           <b-col cols="12" md="6">
-          <img class="img-fluid" alt="logo" src="~@/assets/logo-hero.png" max-width="400px">
-            <h5 class="">MODULAR PUMP TRACKS</h5>
+          <img class="img-fluid" alt="logo" src="~@/assets/logo-hero.png" >
+            <h4 class="font-italic mt-1 font-weight-light">MODULAR PUMP TRACKS</h4>
             <p  class="">Continuus specialise. We design and build modular pump tracks for indoor and outdoor enviroments. Helping children of all ages to stay active while enjoying the ride.</p>
             <p>Designed and manufactured in Canada.</p>
-            <b-button variant="primary" href="#">CONTACT US</b-button>
-            <b-link href="#">LEARN MORE</b-link>
+            <b-button variant="outline-white" href="#"><small>CONTACT US</small></b-button>
+            <b-link class="ml-3 text-white" href="#"><small>LEARN MORE</small></b-link>
           </b-col>
           </b-row>
 
           <b-row>
               <b-col cols="8">
                 <b-row class="mt-60">
-                  <b-col md="6" sm="12"><h6>DEFINITION</h6><h2>CONTINUUS</h2><p class="">/CON-TIN-UUS/ (LATIN)</p></b-col>
+                  <b-col md="6" sm="12"><h6 class="font-weight-light">DEFINITION</h6><h2 class="font-italic">CONTINUUS</h2><p class="text-dark">/CON-TIN-UUS/ (LATIN)</p></b-col>
                   <b-col md="6" sm="12" class="mt-6"><h6>1. forming an unbroken whle, without interruption</h6></b-col>
                 </b-row>
               </b-col>

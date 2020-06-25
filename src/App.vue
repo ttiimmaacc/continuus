@@ -31,7 +31,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   overflow: hidden;
-  background-color: black;
+  /* background-color: black; */
 }
 
 </style>
