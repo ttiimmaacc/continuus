@@ -5,6 +5,7 @@
     <Layout />
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Hell"/> -->
+    <Contact />
 
   </div>
 </template>
@@ -14,6 +15,7 @@ import Navbar from './components/Navbar.vue'
 // import HelloWorld from './components/HelloWorld.vue'
 import Jumbotron from './components/Jumbotron.vue'
 import Layout from './components/Layout.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     // HelloWorld,
     Navbar,
     Jumbotron,
-    Layout
+    Layout,
+    Contact
   }
 }
 </script>
