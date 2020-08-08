@@ -17,6 +17,7 @@ import Jumbotron from './components/Jumbotron.vue'
 import Layout from './components/Layout.vue'
 import Contact from './components/Contact.vue'
 
+
 export default {
   name: 'App',
   components: {
@@ -24,7 +25,7 @@ export default {
     Navbar,
     Jumbotron,
     Layout,
-    Contact
+    Contact,
   }
 }
 </script>
