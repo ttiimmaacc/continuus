@@ -1,0 +1,1 @@
+let context;  function set(c) { 	context = c; }  let animate = function animate() {     requestAnimationFrame(animate);     context.mesh.rotation.x += 0.01;     context.mesh.rotation.y += 0.02;     context.renderer.render(context.scene, context.camera); }; export { animate, set };

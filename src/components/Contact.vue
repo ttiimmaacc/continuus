@@ -4,7 +4,7 @@
       <div class="item last align-self-center">
         <h1 class="heading">Get in touch</h1>
         <!-- CONTACT FORM -->
-        <div id="contact-form" class="align-self-center">
+        <div id="contact-form" class="mb-50 align-self-center">
      <b-form>
         <b-row class="text-white text-left">
           <b-col cols="12" md="9">
@@ -77,7 +77,7 @@
       </div>
 
   </div>
-
+  <div v-prlx.background="{ speed: 0.08}" class="item" id="intro"></div>
   </div>
 </b-container>
 

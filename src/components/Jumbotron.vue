@@ -35,7 +35,7 @@
 
 #bg-img {
   background-image: linear-gradient(204.41deg, rgba(0, 0, 0, 0.49) 96.43%, rgba(0, 0, 0, 0.71) 98.88%), url('~@/assets/Group 35.png');
-  min-height: 110vh;
+  min-height: 100vh;
   background-size: cover;
 }
 .mt-60{
@@ -100,8 +100,9 @@
     min-height: 200px;
   }
 
-  .herolast {
-    background: #aa0000;
+  .headertext {
+    margin-left: 0px!important;
+
   }
 
 }
