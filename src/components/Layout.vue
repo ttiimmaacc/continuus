@@ -48,8 +48,85 @@ Pump tracks provide a unique opportunity to develop the rider's skills on a     
         </p>
       </div>
     </div> -->
+    <!-- SLIDER -->
+        <b-container fluid class="slidewrap">
+          <div class="viewport" >
+        <!-- <nav class="slidenav">
+          <div class="slidenav__brand">
+            <p class="link-text">EXPLORE RAMPS</p>
+          </div>
+          <ul class="slidenav__list">
+            <li class="slidenav__list-item link-text">About</li>
+            <li class="slidenav__list-item link-text">More</li>
+          </ul>
+        </nav> -->
+        <main class="main">
+          <div class="main__slider">
+            <div v-for="(slide, index) of slides" :key="index">
+            <transition name="fade">
+            <img v-if="index === currentActiveSlide" class="main__slide-image" :src="slide.img" /></transition>
+          </div>
+        </div>
+          <div class="main__headline heading">
+            <div v-for="(slide, index) of slides" :key="index">
+            <span  v-if="index === currentActiveSlide" class="main__headline-span">{{ slide.headline }}</span>
+          </div>
+          </div>
+          <!-- <div class="main__nav">
+            <p>Play Video</p>
+            <ul class="social-links">
+              <li class="social-links__item">
+                <a href="https://facebook.com">Fb</a>
+              </li>
+              <li class="social-links__item">
+                <a href="https://twitter.com/">Tw</a>
+              </li>
+              <li class="social-links__item">
+                <a href="https://www.linkedin.com/">In</a>
+              </li>
+            </ul>
+          </div> -->
+        </main>
+        <div class="aside__nav">
+          <div class ="d-inline-flex w-100 justify-content-between align-middle">
+          <button class="aside__button rounded-circle" @click="handleSlideChange(-1)">←</button>
+          <!-- <div class="">spacer</div> -->
+          <button class="aside__button rounded-circle" @click="handleSlideChange(1)">→</button>
+        </div>
+        </div>
+        <aside class="aside ">
+    <p class="mb-5 link-text">EXPLORE RAMPS</p>
+          <div class="aside__slider">
 
-    <b-container fluid class="slidewrap">
+            <div class="slidenav__brand">
+
+            </div>
+            <div v-for="(slide, index) of slides" :key="index">
+            <span  v-if="index === currentActiveSlide" class="main__headline-span heading text-white mt-5">{{ slide.headline }}</span>
+          </div>
+          <div v-for="(slide, index) of slides" :key="index" style="margin-top:35px;">
+          <span  v-if="index === currentActiveSlide" class="aside__info">{{ slide.info }}</span>
+        </div>
+            <!-- <div v-for="(slide, index) of slides" :key="index">
+            <img v-if="index === nextActiveSlide" class="aside__slide-image" :src="slide.img" />
+          </div> -->
+          </div>
+          <div class="aside__info">
+            <div class="slidenav__brand">
+              <p class="link-text">DESCRIPTION</p>
+            </div>
+            <div v-for="(slide, index) of slides" :key="index">
+            <span  v-if="index === currentActiveSlide" class="aside__info">{{ slide.info }}</span>
+          </div>
+        </div>
+          <ul class="progress-indicator" :data-slides-count="'0' + slides.length">
+            <li v-for="(slide,index) of slides" :key="index" :class="index === currentActiveSlide ? 'progress-indicator__bar  progress-indicator__bar--active' : 'progress-indicator__bar'"></li>
+          </ul>
+        </aside>
+      </div>
+      </b-container>
+
+    <!-- <b-container fluid class="slidewrap">
       <div class="viewport" >
     <nav class="slidenav">
       <div class="slidenav__brand">
@@ -61,14 +138,14 @@ Pump tracks provide a unique opportunity to develop the rider's skills on a     
       </ul>
     </nav>
     <main class="main">
-      <div class="main__slider">
+      <div class="main__slider"> -->
 <!-- <transition name="clip-path-wipe"> -->
-        <transition name="clip-path-wipe" tag="div" v-for="(slide, index) of slides" :key="index">
+        <!-- <transition name="clip-path-wipe" tag="div" v-for="(slide, index) of slides" :key="index">
 
-        <img v-if="index === currentActiveSlide" class="main__slide-image" :src="slide.img" />
+        <img v-if="index === currentActiveSlide" class="main__slide-image" :src="slide.img" /> -->
 
       <!-- </div> -->
-</transition>
+<!-- </transition>
     </div>
       <div class="main__headline">
         <div v-for="(slide, index) of slides" :key="index">
@@ -105,7 +182,7 @@ Pump tracks provide a unique opportunity to develop the rider's skills on a     
       </ul>
     </aside>
     </div>
-    </b-container>
+    </b-container> -->
 
 
     <div class="parent">
